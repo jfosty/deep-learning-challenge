@@ -18,4 +18,7 @@ _Data Preprocessing_
 _Model Creation_
 
 The model has 3 layers:
-1. Input Layer: 
+1. Input Layer:
+
+<img width="791" alt="image" src="https://github.com/user-attachments/assets/45f13b32-b516-4d76-9e77-53952427c434" />
+
