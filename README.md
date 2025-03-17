@@ -22,7 +22,7 @@ The model has 3 layers:
 2. Hidden Layers
 3. Output Layer
 
-The below photo summarizes the layers and shows the 80 and 20 Neurons used in the layers. 
+The below photo summarizes the layers and shows the 80, 30 neurons in the Hidden Layers and 1 Neuron used in the output layer. 
 <img width="791" alt="image" src="https://github.com/user-attachments/assets/45f13b32-b516-4d76-9e77-53952427c434" />
 
 **_Training_**
@@ -32,5 +32,5 @@ We used the compile function with an "adam" as the optimizer to train the X,y va
 **Results**
 1. The target variable in the model is "IS_SUCCESSFUL" which are the possible funding options that were successfully completed.
 2. All features are columns except for the aforemnetioned target variable.
-3. The overall accuracy was 72.64% - this is below the goal accuracy of 75%. This is likely due to the unnecessary columns that are decreasing the overall accruacy. Further cleaning of the data to get rid of unnecassary fields and to eliminate outliers could help increase the overall accuracy. 
+3. The overall accuracy was 72.64% - this is below the goal accuracy of 75%. This is likely due to the unnecessary columns that are decreasing the overall accruacy. Further cleaning of the data to get rid of unnecassary fields and to eliminate outliers could help increase the overall accuracy.
 
